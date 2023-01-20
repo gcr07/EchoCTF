@@ -15,8 +15,16 @@ Nos damos cuenta que guarda una cookie le hacemos el URL decode y vemos que tien
 {"fullname":"masa","user_id":65}
 ```
 
-Entonces procedemos a poner el user admin y el id 0 porque en Linux el id de usuario root es 0.
+Entonces procedemos a poner el user admin y el id 0 porque en Linux el id de usuario root es 0. Actualizamos la pagina y nos da una flag. Ahora nos dice que revisemos el /admin.php ya que en las headers vemos que esta hecho con PHP 7.x
 
+Modificamos la cookie a admin y nos da el siguiente portal:
+
+
+![image](https://user-images.githubusercontent.com/63270579/213624700-85e6dc9f-455b-4611-84c6-02ca08f05283.png)
+
+Para borrar toda la base de datos nos damos cuenta que podria ser por SQLi
+
+![image](https://user-images.githubusercontent.com/63270579/213628703-6ea8a349-1835-492e-a4f7-c05419d03c9d.png)
 
 
 
