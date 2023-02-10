@@ -57,9 +57,29 @@ http://lfi-tutorial.echocity-f.com/?page=php://filter/convert.base64-encode/reso
 
 ```
 
+## The fake binary bypass ( bueno con cosas que no sabias )
 
 
+Primero vamos a ir de menos a mas:
 
+### Exiftool
+
+![image](https://user-images.githubusercontent.com/63270579/218148411-196419d2-5348-4f45-a8ab-a8f398e93203.png)
+
+### file
+
+![image](https://user-images.githubusercontent.com/63270579/218148288-5631f216-aefd-4bdb-807a-2df02d5d0bce.png)
+
+## string
+
+![image](https://user-images.githubusercontent.com/63270579/218148647-91c65ba6-7a98-4de7-821c-639aadcbefeb.png)
+
+## Files ELF ( ELF or the Executable and Linkable Format )
+
+> https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/
+
+
+Los archivos ELF suelen ser la salida de un compilador o enlazador y tienen un formato binario. Con las herramientas adecuadas, dicho archivo se puede analizar y comprender mejor.
 
 
 
