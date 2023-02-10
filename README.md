@@ -81,12 +81,35 @@ Primero vamos a ir de menos a mas:
 
 Los archivos ELF suelen ser la salida de un compilador o enlazador y tienen un formato binario. Con las herramientas adecuadas, dicho archivo se puede analizar y comprender mejor.
 
+### Para que se pueden usar aparte de ejecutables
+
+A common misconception is that ELF files are just for binaries or executables. We already have seen they can be used for partial pieces (object code). Another example is shared libraries or even core dumps (those core or a.out files). The ELF specification is also used on Linux for the kernel itself and Linux kernel modules.
+
+## Structure
+
+Aunque puede variar debido a los multiples usos que se le pueden dar a los archivos ELF.
+
+1. cabecera ELF
+
+2. Datos del archivo
+
+### Datos del archivo
+
+De dividen en dos a su vez
+
+#### Sementos
 
 
+Un archivo ELF consta de cero o más segmentos y describe cómo crear una imagen de proceso/memoria para la ejecución en tiempo de ejecución.
+
+#### Secciones ( me recuerda al PE header)
 
 
+Existe un comando para leer la estructura de estos archivos "readelf -a binary"
 
+Leer el archivo para mayor informacion.
 
+![image](https://user-images.githubusercontent.com/63270579/218152746-4641215a-cd77-4fad-b38e-8001c2d9c841.png)
 
 
 
